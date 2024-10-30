@@ -1,0 +1,58 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "A Random Quote Generator",
+            "description": "An app that displays a randomly selected quote each time the user clicks a button.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "",
+            "github_link": "https://github.com/Jv650/Techdegree-project-1-edit.git",
+            "image_urls": ["/static/images/project1.png", "/static/images/project1-2.png"]
+        },
+        {
+            "id": 1,
+            "project_name": "Data Pagination and Filtering",
+            "description": "Write JavaScript to display information for 42 students, including name, email, and picture. Pagination buttons are included so that the user can click to display different pages of students. ",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "",
+            "github_link": "https://github.com/Jv650/Techdegree-project-2",
+            "image_urls": ["/static/images/project2-1", "/static/images/project2.png"]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "Enhance an interactive resigtration form for a fictional Full Stack Conference.",
+            "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
+            "live_link": "",
+            "github_link": "https://github.com/Jv650/Techdegree-project-3",
+            "image_urls": ["/static/images/project3-1.png", "/static/images/project3.png"]
+        },
+        {
+            "id": 3,
+            "project_name": "OOP Game Show App",
+            "description": "Create a browser-based, word guessing game called Phrase Hunter. JavaScript and Object-Oriented Programming is used to select a random, hidden phrase. Player tries to guess the phrase by selecting individual letters from an onscreen keyboard.",
+            "technologies": ["HTML", "CSS", "JavaScript", "Object-Oriented JavaScript"],
+            "live_link": "",
+            "github_link": "https://github.com/Jv650/Techdegree-project-4",
+            "image_urls": ["/static/images/project4-1.png", "/static/images/project4.png"]
+        },
+        {
+            "id": 4,
+            "project_name": "Public User API Requests",
+            "description": "An employee directory that communicates with a third-party API (Application Programming Interface).",
+            "technologies": ["HTML", "CSS", "JavaScript", "Object-Oriented JavaScript"],
+            "live_link": "",
+            "github_link": "https://github.com/Jv650/Techdegree-project-5",
+            "image_urls": ["/static/images/project5-1.png", "/static/images/project5.png"]
+        },
+        {
+            "id": 5,
+            "project_name": "SSF Weather API",
+            "description": "Weather app that displays weather for South San Francisco, CA.",
+            "technologies": ["HTML", "CSS", "JavaScript", "Object-Oriented JavaScript"],
+            "live_link": "",
+            "github_link": "https://github.com/Jv650/Weather-APP-for-SSF",
+            "image_urls": ["/static/images/weather.png", "/static/images/weather2.png"]
+        }
+    ]
+}
