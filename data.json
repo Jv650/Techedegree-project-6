@@ -5,7 +5,7 @@
             "project_name": "A Random Quote Generator",
             "description": "An app that displays a randomly selected quote each time the user clicks a button.",
             "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "https://jv650.github.io/Techdegree-project-1-edit/",
+            "live_link": "https://jv650.github.io/Techdegree-project1/",
             "github_link": "https://github.com/Jv650/Techdegree-project-1-edit.git",
             "image_urls": ["/images/project1.png", "/images/project1-2.png"]
         },

@@ -40,9 +40,10 @@ app.get('/projects/:id', (req, res) => {
 
 ////SET UP MIDDLEWARE
 app.use((req, res, next) => {
-    const err = new Error('Page not found');
-    err.status = 404;
-    next(err);
+    res.status(404).send("Page not found")
+    //const err = new Error('Page not found');
+    //err.status = 404;
+    //next(err);
 });
 
 app.use((err, req, res) => {
