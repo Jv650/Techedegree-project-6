@@ -21,22 +21,20 @@ app.use('/static', express.static('public'));
 app.get('/', (req, res) => {
     //const projects = data.projects; //from data.json file
     //res.locals.projects = data.projects;
-    res.render("index", { projects: data.projects}); //or "/"??
+    res.render("index", { projects: data.projects }); //or "/"??
 });
 
 app.get('/about', (req, res) => {
     res.render("about");
 });
 
-app.get('/project/:id', (req, res, next) => {
-    //res.render('project');
-    const id = parseInt(req.params.id); //do i need to put {id}
-    const currentProj = data.projects[id];
-    if(currentProj){
-        res.render('project', {currentProj});
-    } else {
-        next();
-    }
+app.get('/projects/:id', (req, res) => {
+     //res.render('project');
+     const id = req.params.id; //do i need to put {id}
+     const currentProj = data.projects.filter(el => el.id === id);//data.projects[id];
+     res.render('project', {currentProj});
+     //res.render('project', { projects: currentProj });
+     //res.locals.projects;
 });
 
 ////SET UP MIDDLEWARE
@@ -46,7 +44,7 @@ app.use((req, res, next) => {
     next(err);
 });
 
-app.use((err, req, res, next) => {
+app.use((err, req, res) => {
     res.locals.error = err;
     res.status(err.status); //sends a 500 status for download error
     //res.render('error');
