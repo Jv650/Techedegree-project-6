@@ -125,6 +125,7 @@ nav a {
 nav a span {
   font-weight: bold;
   font-size: 1.25rem;
+  
 }
 
 .sidebar {
@@ -145,13 +146,14 @@ nav a span {
 }
 
 .thumbnail-box {
-  padding: 0 10px;
+  padding: 0 5px;
 }
 
 .sidebar .thumbnail {
   width: 100%;
   max-width: 250px;
-  border: 4px solid #fff;
+  border: 2px solid #ffffffd2;
+  border-radius: 8px;
 }
 
 .dev-intro-box {
@@ -184,13 +186,13 @@ nav a span {
   color: #fefefe;
   height: 40px;
   padding: 0.5rem;
-  background: #0a0a0a;
+  background: #000000;
   border-left: 1px solid #0a0a0a;
 }
 
 .header span {
   display: inline-block;
-  font-weight: bold;
+
 }
 
 .header button {
@@ -259,9 +261,13 @@ nav a span {
   width: 100%;
   min-width: 100px;
   border: 4px solid #fff;
-  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  box-shadow: 10px 10px 10px #888888;
+  border-radius: 8px;
 }
 
+.cell img:hover {
+  transform: scale(1.1);
+}
 
 /* 
   About and project pages styles 

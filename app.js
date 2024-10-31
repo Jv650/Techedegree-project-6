@@ -31,9 +31,10 @@ app.get('/about', (req, res) => {
 app.get('/projects/:id', (req, res) => {
      //res.render('project');
      const id = req.params.id; //do i need to put {id}
-     const currentProj = data.projects.filter(el => el.id === id);//data.projects[id];
-     res.render('project', {currentProj});
-     //res.render('project', { projects: currentProj });
+     const currentProj = data.projects[id];//const currentProj = data.projects.filter(el => el.id === id);//data.projects[id];
+     //console.log(currentProj);
+     //res.render('project', {currentProj});
+     res.render('project', { projects: currentProj });
      //res.locals.projects;
 });
 
