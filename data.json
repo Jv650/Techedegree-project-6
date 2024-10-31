@@ -7,7 +7,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "",
             "github_link": "https://github.com/Jv650/Techdegree-project-1-edit.git",
-            "image_urls": ["/static/images/project1.png", "/static/images/project1-2.png"]
+            "image_urls": ["/images/project1.png", "/images/project1-2.png"]
         },
         {
             "id": 1,
@@ -16,7 +16,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "",
             "github_link": "https://github.com/Jv650/Techdegree-project-2",
-            "image_urls": ["/static/images/project2-1", "/static/images/project2.png"]
+            "image_urls": ["/images/project2-1.png", "/images/project2.png"]
         },
         {
             "id": 2,
@@ -25,7 +25,7 @@
             "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
             "live_link": "",
             "github_link": "https://github.com/Jv650/Techdegree-project-3",
-            "image_urls": ["/static/images/project3-1.png", "/static/images/project3.png"]
+            "image_urls": ["/images/project3-1.png", "/images/project3.png"]
         },
         {
             "id": 3,
@@ -34,7 +34,7 @@
             "technologies": ["HTML", "CSS", "JavaScript", "Object-Oriented JavaScript"],
             "live_link": "",
             "github_link": "https://github.com/Jv650/Techdegree-project-4",
-            "image_urls": ["/static/images/project4-1.png", "/static/images/project4.png"]
+            "image_urls": ["/images/project4-1.png", "/images/project4.png"]
         },
         {
             "id": 4,
@@ -43,16 +43,16 @@
             "technologies": ["HTML", "CSS", "JavaScript", "Object-Oriented JavaScript"],
             "live_link": "",
             "github_link": "https://github.com/Jv650/Techdegree-project-5",
-            "image_urls": ["/static/images/project5-1.png", "/static/images/project5.png"]
+            "image_urls": ["/images/project5-1.png", "/images/project5.png"]
         },
         {
             "id": 5,
-            "project_name": "SSF Weather API",
+            "project_name": "South San Francisco Weather API",
             "description": "Weather app that displays weather for South San Francisco, CA.",
             "technologies": ["HTML", "CSS", "JavaScript", "Object-Oriented JavaScript"],
             "live_link": "",
             "github_link": "https://github.com/Jv650/Weather-APP-for-SSF",
-            "image_urls": ["/static/images/weather.png", "/static/images/weather2.png"]
+            "image_urls": ["/images/weather.png", "/images/weather2.png"]
         }
     ]
 }
